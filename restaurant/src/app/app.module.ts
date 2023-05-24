@@ -15,6 +15,7 @@ import { DropdownDirectiveDirective } from './shared/dropdown-directive.directiv
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthComponent } from './auth/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     ShoppingEditComponent,
     DropdownDirectiveDirective,
     RecipeStartComponent,
-    RecipeEditComponent
+    RecipeEditComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
